@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int n,squ;
+    scanf("%d",&n);
+    squ=n*n;
+    if(squ%10==n%10){
+        printf("automorphic nummber");
+    }
+    else{
+        printf("not  automorphic number");
+    }
+}
