@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+	int r,c,arr[10][10],i,j,min;
+	scanf("%d%d",&r,&c);
+
+	for(i=0; i<r; i++)
+		for(j=0; j<c; j++)
+			scanf("%d",&arr[i][j]);
+	for(i=0;i<r;i++){
+	    int min=arr[i][0];
+        for(j=0;j<c;j++)
+            if(arr[i][j]<min)
+            min=arr[i][j];
+    printf("%d\n",min);
+	}
+}
