@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int n;
+	scanf("%d",&n);
+	if(n<18){
+		printf("He is not eligible to vote");
+	}
+	else
+	{
+		printf("He is eligible to vote");
+	}
+}
