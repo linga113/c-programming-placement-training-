@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+	char c;
+	scanf("%c",&c);
+	switch(c){
+	case 'E':
+	case 'e':printf("Exellent");break;
+	case 'V':
+	case 'v':printf("very good");break;
+	case 'G':
+	case 'g':printf("Good");break;
+	case 'A':
+	case 'a':printf("average");break;
+	case 'F':
+	case 'f':printf("Fail");break;
+	default:printf("inralid");
+	}
+}
